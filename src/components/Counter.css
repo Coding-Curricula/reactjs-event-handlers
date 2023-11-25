@@ -1,0 +1,46 @@
+.counter-container {
+  background-color: rebeccapurple;
+  max-width: 300px;
+  margin: 50px auto;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+.title {
+  font-size: x-large;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+button {
+  margin: 0 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: white;
+  color: rebeccapurple;
+}
+
+.quantity {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.price,
+.discount {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.product-input {
+  width: 4rem;
+}
+
+.price-input {
+  width: 2rem;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Input({ value, label, onChange }) {
+export default function Input({ styleName, value, label, onChange }) {
 
     const handlerChange = (event) => {
         onChange(event.target.value)
@@ -9,7 +9,7 @@ export default function Input({ value, label, onChange }) {
     return (
         <>
             <label>{label}</label>
-            <input value={value} onChange={handlerChange} />
+            <input className={styleName} value={value} onChange={handlerChange} />
         </>
     )
 }
